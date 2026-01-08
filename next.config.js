@@ -3,7 +3,7 @@ module.exports = {
   async headers() {
     return [
       {
-        // matching all API routes
+        // matching all API routes 
         source: '/api/:path*',
         headers: [
           { key: 'Access-Control-Allow-Credentials', value: 'true' },
@@ -14,10 +14,11 @@ module.exports = {
             value:
               'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
           },
-        ],
+        ], 
       },
-    ];
-  },
+    ]; 
+  }, 
+  
   env: {
     // API_ROUTE: "http://localhost:3000",
   },
