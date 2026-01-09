@@ -4,6 +4,7 @@ import { supabase } from '@libs/supabase';
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { method, body, query } = req;
 
+  
   switch (method) {
     case 'GET':
       //if (!query.id) {
