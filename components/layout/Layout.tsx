@@ -7,6 +7,7 @@ import clsx from 'clsx';
 import nookies from 'nookies';
 import HeadSeo from './HeadSeo';
 
+
 type Props = {
   children: ReactNode;
   title: string;
