@@ -11,6 +11,7 @@ type Props = {
   className?: string;
 };
 
+
 export default function Akun({ className }: Props) {
   const admin = nookies.get(null, 'name');
   const router = useRouter();
